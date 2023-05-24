@@ -13,4 +13,12 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="flow" format="boolean"/>
+        <attr name="childSpacing" format="integer"/>
+        <attr name="childSpacingForLastRow" format="integer"/>
+        <attr name="rowSpacing" format="integer"/>
+        <attr name="rtl" format="boolean"/>
+    </declare-styleable>
 </resources>
